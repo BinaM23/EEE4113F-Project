@@ -18,7 +18,7 @@ Instructions to setup the circuit can be found at [1] or [2]
 Calibrates the load cell scale that is interfaced to an arduino by using a known weight to obtain the calibration factor of the scale. 
 
 ## Weighing program (Calibrated1.ino)
-Uses the calibration factor calculated by the calibrater program (Calibrator.ino) to continously record the mass of an object on the load cell(scale), and outputs a single measurement and the average reading of 20 measurements  every 5 seconds to the serial monitor. This was modified for our project by including functionality to write the output to a .txt/.csv file. This program was used in the RFID module to only activate when a bird with a valid RFID lands on the scale.
+Uses the calibration factor calculated by the calibrater program (Calibrator.ino) to continously record the mass of an object on the load cell(scale), and outputs a single measurement and the average reading of 20 measurements  every 5 seconds to the serial monitor. This code was modified for our project by formatting the otutput to have timestamp information and weight information and output redirection was used to write to files. This program was used in the RFID module to only activate when a bird with a valid RFID lands on the scale.
 
 ## References
 [1] Florita et al., “Arduino with load cell and HX711 amplifier (Digital Scale),” Random Nerd Tutorials, https://randomnerdtutorials.com/arduino-load-cell-hx711/ (accessed May 18, 2023). 
