@@ -1,6 +1,6 @@
 # EEE4113F-Project
 Code repo for weighing subsystem and associated docs
-code obtained and modified from https://github.com/bogde/HX711/tree/master and https://randomnerdtutorials.com/arduino-load-cell-hx711/ by Rui Santos
+code obtained and modified from https://github.com/bogde/HX711/tree/master by Bogdan Necula and https://randomnerdtutorials.com/arduino-load-cell-hx711/ by Rui Santos
 
 ## Pre-requisites and setup
 Must have any arduino board or compatible board that uses arduino IDE
