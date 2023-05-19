@@ -7,7 +7,7 @@ Must have any arduino board or compatible board that uses arduino IDE
 
 Must have arduino IDE installed on PC
 
-Must have the arduino HX711 libraries from [1] and [2] installed in library manager
+Must have the arduino HX711 libraries from [1] and [2] installed in library manager and Time library by Michael Margolis
 
 Must have the HX711 amplifier or equivalent and a 4 wire load cell (any mass)
 
